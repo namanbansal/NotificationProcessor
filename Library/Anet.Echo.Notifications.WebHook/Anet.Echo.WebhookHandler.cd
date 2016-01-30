@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Anet.Echo.Notifications.WebHook.WebHookHandler">
+    <Position X="0.75" Y="0.5" Width="6.5" />
+    <Members>
+      <Field Name="BodyAttemptKey" Hidden="true" />
+      <Field Name="BodyIdKey" Hidden="true" />
+      <Field Name="BodyNotificationsKey" Hidden="true" />
+      <Field Name="BodyPropertiesKey" Hidden="true" />
+      <Field Name="SignatureHeaderKey" Hidden="true" />
+      <Field Name="SignatureHeaderName" Hidden="true" />
+      <Field Name="SignatureHeaderValueTemplate" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ASAAIAAQAAAAAAgCAAAEAAAAAAAAAgAACBAAAAIAAAA=</HashCode>
+      <FileName>WebHookHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anet.Echo.Notifications.WebHook.WebHookWorkItem">
+    <Position X="0.75" Y="2.5" Width="6.5" />
+    <Members>
+      <Field Name="_id" Hidden="true" />
+      <Field Name="_notifications" Hidden="true" />
+      <Field Name="_properties" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Notifications" Type="Anet.Echo.Notifications.WebHook.NotificationDictionary" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.688" Y="4.44" />
+        <Point X="3.688" Y="5.121" />
+        <Point X="8.5" Y="5.121" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgEAAAAABAAAAAAAAQAAAAAAAAEAACgAA=</HashCode>
+      <FileName>WebHookWorkItem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="WebHook" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Notifications" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Anet.Echo.Notifications.WebHook.WebHook">
+    <Position X="8.5" Y="0.5" Width="4.75" />
+    <Members>
+      <Field Name="_filters" Hidden="true" />
+      <Field Name="_headers" Hidden="true" />
+      <Field Name="_properties" Hidden="true" />
+      <Field Name="id" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAEgGAAAQABAAAAACAAAAAAAAAAgIAACAgA=</HashCode>
+      <FileName>WebHook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anet.Echo.Notifications.WebHook.NotificationDictionary">
+    <Position X="8.5" Y="4" Width="4.75" />
+    <Members>
+      <Field Name="ActionKey" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAQAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>NotificationDictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
