@@ -9,6 +9,9 @@ namespace Anet.Echo.Notifications.WebHook
 {
     public class SmsNotificationHandler : INotificationHandler
     {
-        public void Send(Notification notification);
+        public void Send(Notification notification)
+        {
+
+        }
     }
 }

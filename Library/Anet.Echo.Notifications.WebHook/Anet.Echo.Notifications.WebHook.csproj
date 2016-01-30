@@ -69,6 +69,7 @@
     <Compile Include="NotificationDictionary.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SmsNotificationHandler.cs" />
+    <Compile Include="Utilities\EncodingUtilities.cs" />
     <Compile Include="WebHook.cs" />
     <Compile Include="WebHookHandler.cs" />
     <Compile Include="WebHookNotificationHandler.cs" />
